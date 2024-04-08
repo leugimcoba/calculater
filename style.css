@@ -1,0 +1,64 @@
+/* Calculator container */
+body{
+    background-color:#777;
+}
+.calc {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 10px blue;
+}
+
+/* Input field */
+.maininput {
+    width: 89%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    color: #fff;
+}
+
+/* Button styles */
+.numbtn, .calbtn, .c, .equal, .plusminus {
+    width: 50px;
+    height: 50px;
+    margin: 11px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.numbtn:hover, .calbtn:hover, .c:hover, .equal:hover, .plusminus:hover {
+    background-color: #777;
+}
+
+.equal {
+    width: 105px;
+}
+
+.c {
+    width: calc(40% - 50px);
+}
+
+.plusminus {
+    width: calc(100% - 60px);
+}
+
+/* Special styling for '=' and 'C' buttons */
+.equal, .c {
+    background-color: gray;
+}
+
+.equal:hover, .c:hover {
+    background-color: gray;
+}
